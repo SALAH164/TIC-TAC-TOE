@@ -36,24 +36,24 @@ if((a[1]==a[2] && a[1]==a[3]&& a[1]!=0)||( a[1]==a[5] && a[1]==a[9]&& a[1]!=0 )|
 
             if(i==x && i%3==0 && t==-1){
                 a[i]='O';
-            cout<<a[i]<<"|"<<endl<<"------"<<endl;
+            cout<<a[i]<<" | "<<endl<<"---------"<<endl;
         }else if(i==x && i%3!=0 && t==-1){
             a[i]='O';
-        cout<<a[i]<<'|';
+        cout<<a[i]<<" | ";
         }else
         if(i==x && i%3==0){
                 a[i]='X';
-            cout<<a[i]<<"|"<<endl<<"------"<<endl;
+            cout<<a[i]<<" | "<<endl<<"---------"<<endl;
         }else if(i==x && i%3!=0){
             a[i]='X';
-        cout<<a[i]<<'|';
+        cout<<a[i]<<" | ";
         }
         else
         if(i%3==0 && i!=x){
 
-            cout<<a[i]<<"|"<<endl<<"------"<<endl;
+            cout<<a[i]<<" | "<<endl<<"---------"<<endl;
         }else if(i!=x){
-        cout<<a[i]<<'|';
+        cout<<a[i]<<" | ";
         }
 
     }cout<<endl;
